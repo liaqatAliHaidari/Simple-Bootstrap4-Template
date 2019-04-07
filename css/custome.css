@@ -1,0 +1,180 @@
+/* custome css */
+body {
+    position: relative;
+    padding-top: 3.5rem;
+}
+
+.starter-template {
+    text-align: center;
+}
+
+/* Navbar */
+.bg-dark {
+    background-color: #28abd6 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    background-color: #28abd6 !important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #28abd6 !important;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*  carousel */
+.carousel-caption {
+    padding-bottom: 8%;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 24px;
+    color: #28abd6;
+}
+
+/* Button */
+.btn-info {
+    background-color: #28abd6;
+    padding: .380rem 2rem;
+    border: 2px solid transparent;
+}
+
+.btn-info:hover {
+    background-color: transparent;
+    border: 3px solid #28abd6;
+    color: #28abd6;
+    box-shadow: 5px 5px 15px #444;
+}
+
+.btn-info:active {
+    background-color: transparent !important;
+    border: 3px solid #28abd6;
+    color: #28abd6;
+    box-shadow: 5px 5px 15px #444;
+}
+
+/* specials Section*/
+.specials {
+    background: #2b2b2b;
+    padding: 40px 20px;
+}
+
+.specials h2 {
+    color: #fff;
+}
+
+/*Team*/
+#team {
+    background-color: #28abd6;
+}
+
+/*Menu*/
+#menu {
+    margin-bottom: 30px;
+}
+
+#menu h4 {
+    text-align: center;
+}
+
+#menu p {
+    padding: 5px 15px;
+}
+
+#menu img {
+    height: 400px;
+    padding: 5px;
+}
+
+.modal-content {
+    background-color: #28abd6;
+}
+
+#plx {
+    background: url(../img/back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wtitle {
+    padding: 150px 20px;
+}
+
+.wtitle h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+/* Wine */
+#wines {
+    height: 700px;
+    background-color: #28abd6;
+    padding: 30px 20px;
+
+}
+
+.wltitle h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+/*Jambotron*/
+#jumbo {
+    background-color: #e9ecef;
+}
+
+/* favs section*/
+#favs .card-img-overlay {
+    opacity: 0;
+    transition: 0.75s;
+}
+
+#favs .card-img-overlay:hover {
+    opacity: 1;
+    background: rgb(0, 0, 0, .5);
+}
+
+/*Location*/
+#location {
+    padding: 30px;
+    background: url(../img/world.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#location .btn-info {
+    width: 30%;
+}
+
+/*testimonials*/
+.testimonials {
+    background-color: #2b2b2b;
+}
+
+/*Carousedl*/
+
+
+.revs {
+    padding: 100px;
+}
+
+/*Vid*/
+#vid {
+    padding: 80px 0px;
+    background-color: #111;
+}
